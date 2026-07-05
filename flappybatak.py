@@ -125,6 +125,7 @@ while True:  #game loop
                 velocity_y = -6
 
 
+                
                 if game_over:
                     bird.y = bird_y
                     pipes.clear()
