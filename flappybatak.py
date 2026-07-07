@@ -137,3 +137,4 @@ while True:  #game loop
         draw()
         pygame.display.update()
         clock.tick(60) 
+
