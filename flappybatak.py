@@ -121,7 +121,7 @@ while True:  #game loop
             create_pipes()
 
         if event.type == pygame.KEYDOWN:
-            if event.key in (pygame.K_SPACE, pygame.K_x, pygame.K_UP):
+            if event.key in (pygame.K_SPACE, pygame.K_x, pygame.K_UP):  
                 velocity_y = -6
 
 
