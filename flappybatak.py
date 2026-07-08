@@ -98,7 +98,7 @@ def create_pipes():
     top_pipe.y = random_pipe_y
     pipes.append(top_pipe)
 
-    bottom_pipe = Pipe(bottom_pipe_image, GAME_WIDTH, opening_space + 150)
+    bottom_pipe = Pipe(bottom_pipe_image, GAME_WIDTH, opening_space + 150) 
     bottom_pipe.y = top_pipe.y + top_pipe.height + opening_space
     pipes.append(bottom_pipe)
 
