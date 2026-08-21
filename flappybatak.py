@@ -15,7 +15,7 @@ bird_height = 33
 
 class Bird(pygame.Rect):
     def __init__(self, img):
-        pygame.Rect.__init__(self, bird_x, bird_y, bird_width, bird_height)
+        pygame.Rect.__init__(self, bird_x, bird_y, bird_width, bird_height) 
         self.img = img
 
 pipe_x = GAME_WIDTH
