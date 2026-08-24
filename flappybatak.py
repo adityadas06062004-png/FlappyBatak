@@ -25,7 +25,7 @@ pipe_height = 512
 
 class Pipe(pygame.Rect):
     def __init__(self, img, x, y):
-        pygame.Rect.__init__(self, x, y, pipe_width, pipe_height)
+        pygame.Rect.__init__(self, x, y, pipe_width, pipe_height) 
         self.img = img
         self.passed = False
 
